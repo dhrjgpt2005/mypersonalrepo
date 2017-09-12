@@ -3,6 +3,5 @@ dist: trusty
 addons:
   sonarcloud:
     organization: "myorg-12345" # the key of the org you chose at step #3
-  script:
-    # other script steps might be done before running the actual analysis
-    - sonar-scanner
+script:
+  - sonar-scanner
