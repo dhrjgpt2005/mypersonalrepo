@@ -1,6 +1,5 @@
 <?php
 
-
 class Clazz {
   $name=NULL;  // instance variable
 
