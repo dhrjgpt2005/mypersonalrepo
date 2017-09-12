@@ -1,5 +1,18 @@
 <?php
 
+
+class Clazz {
+  $name=NULL;  // instance variable
+
+    public static function foo(){
+        if ($this->name != NULL) {
+	      // ...
+	}
+    }
+}
+
+$obj = new clazz();
+
 echo "Its ok";
 
 print_r($_SERVER['nokey']);
