@@ -9,7 +9,7 @@ class Clazz {
 	      // ...
 	}
     }
-}
+
 
 $obj = new clazz();
 
